@@ -1,0 +1,34 @@
+name = input("Enter name:")
+age = int(input("Enter your age: "))
+score = int(input("Enter your score: "))
+citizen = True  
+
+print("Hello",name)
+if citizen:
+    print("You are a citizen.")
+else:
+    print("You are not a citizen.")
+
+if age <= 1:
+    stage = "Baby"
+elif age <= 12:
+    stage = "Child"
+elif age <= 19:
+    stage = "Teen"
+elif age <= 59:
+    stage = "Adult"
+else:
+    stage = "Senior"
+
+print(f"At age {age}, you are classified as: {stage}")
+
+
+if score == 100:
+    print("Perfect Score! Pass")
+elif score >= 90:
+    print("Excellent! Pass")
+elif score >= 75:
+    print("Good job! Pass")
+else:
+    print("Fail - Better luck next time")
+
