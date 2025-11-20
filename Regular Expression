@@ -1,1 +1,20 @@
+import re
 
+text = input("Enter a sentence: ")
+
+capital_words = re.findall(r'\b[A-Z][a-z]*\b', text)
+print("Words starting with a capital letter:", capital_words)
+
+numbers = re.findall(r'\d+', text)
+print("Numbers found in the text:", numbers)
+
+email_pattern = r'[\w\.-]+@[\w\.-]+\.\w+'
+emails = re.findall(email_pattern, text)
+if emails:
+    print("Email(s) found:", emails)
+else:
+    print("No email found.")
+
+text_no_numbers = re.sub(r'\d', '#', text)
+print("Text with numbers replaced:", text_no_numbers)
+s
