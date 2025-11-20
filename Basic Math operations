@@ -14,6 +14,5 @@ if y != 0:
 else:
     print("Division by zero is not allowed.")
 
-print("x ** y:", x ** y)
 print("sqrt(x):", math.sqrt(x))
 print("sqrt(y):", math.sqrt(y))
