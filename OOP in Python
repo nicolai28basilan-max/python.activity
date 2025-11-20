@@ -1,9 +1,10 @@
 class Gun:
-    def speak(self):
+    def noice(self):
         print("Bang!!")
 
 class Shotgun(Gun):
-    def speak(self):
+    def noice(self):
         print("Clickick")
+
 d = Shotgun()
-d.speak() 
+d.noice()
