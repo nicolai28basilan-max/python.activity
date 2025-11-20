@@ -1,0 +1,19 @@
+import math
+
+x = int(input("Enter a number: "))
+y = int(input("Enter another number: "))
+
+print("x + y:", x + y)
+print("x - y:", x - y)
+print("x * y:", x * y)
+
+if y != 0:
+    print("x / y:", x / y)
+    print("x // y:", x // y)
+    print("x % y:", x % y)
+else:
+    print("Division by zero is not allowed.")
+
+print("x ** y:", x ** y)
+print("sqrt(x):", math.sqrt(x))
+print("sqrt(y):", math.sqrt(y))
