@@ -1,0 +1,9 @@
+class Gun:
+    def speak(self):
+        print("Bang!!")
+
+class Shotgun(Gun):
+    def speak(self):
+        print("Clickick")
+d = Shotgun()
+d.speak() 
