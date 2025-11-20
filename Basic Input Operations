@@ -1,0 +1,9 @@
+name = input("Enter Youre name:")
+age = int(input("Enter Age:"))
+Gwa = float(input("Enter Grade:"))
+
+print("Name: ", name)
+print("Age: ", age)
+print("Gwa: ", Gwa)
+
+print("My name is",name, "and i am " ,age, "Years old", "My Grade is" ,Gwa)
