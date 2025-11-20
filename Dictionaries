@@ -1,0 +1,11 @@
+students = [
+    {"name": "Nico", "age": 20, "address": "123 Main St", "sr_code": "24-40439"},
+    {"name": "Bonetag", "age": 21, "address": "456 Elm St", "sr_code": "24-40439"},
+    {"name": "Bon", "age": 19, "address": "789 Oak St", "sr_code": "24-40439"},
+    {"name": "One", "age": 22, "address": "101 Pine St", "sr_code": "24-40439"},
+    {"name": "Nice", "age": 20, "address": "202 Maple St", "sr_code": "24-40439"},
+    {"name": "Bro", "age": 23, "address": "303 Birch St", "sr_code": "24-40439"}
+]
+
+for student in students:
+    print(f"Name: {student['name']}, Age: {student['age']}, Address: {student['address']}, SR Code: {student['sr_code']}")
